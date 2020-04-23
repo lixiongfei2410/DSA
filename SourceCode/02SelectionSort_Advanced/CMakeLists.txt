@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.0)
 project(SelecitonSort)
-include_directories(${PROJECT_NAME})
 set(CMAKE_CXX_FLAGS  "-std=c++11")
 add_executable(${PROJECT_NAME} main.cpp)
